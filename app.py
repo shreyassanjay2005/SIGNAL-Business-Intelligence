@@ -1651,12 +1651,11 @@ elif page == 'Prediction Lab':
 elif page == 'Model Performance':
     evaluation()
 
-
 # -----------------------------------------------------------
 # PERSONAL FOOTER
 # -----------------------------------------------------------
 
-st.markdown("""
+st.html("""
 <div class="signal-footer">
     <div>
         <div class="footer-name">
@@ -1669,7 +1668,6 @@ st.markdown("""
             · Business Analytics &amp; AI for Business
         </div>
     </div>
-
     <div class="footer-right">
         © 2026 Shreyas Sanjay
         <div>
@@ -1678,8 +1676,7 @@ st.markdown("""
         </div>
     </div>
 </div>
-""", unsafe_allow_html=True)
-
+""")
 
 
 # -----------------------------------------
