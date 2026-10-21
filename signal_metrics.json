@@ -1,0 +1,17 @@
+{
+    "model": "Logistic Regression",
+    "total_rows": 9994,
+    "train_rows": 6682,
+    "test_rows": 3312,
+    "accuracy": 0.9432367149758454,
+    "baseline_accuracy": 0.8128019323671498,
+    "balanced_accuracy": 0.8756986051862148,
+    "precision": 0.9153846153846154,
+    "recall": 0.7677419354838709,
+    "roc_auc": 0.9849928701529023,
+    "brier_score": 0.036360092966245657,
+    "tp": 476,
+    "tn": 2648,
+    "fp": 44,
+    "fn": 144
+}
